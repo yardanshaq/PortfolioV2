@@ -22,15 +22,6 @@ export default function Lanyard({ position = [0, 0, 30], gravity = [0, -40, 0], 
         camera={{ position: position, fov: fov }}
         gl={{ alpha: transparent }}
         onCreated={({ gl }) => gl.setClearColor(new THREE.Color(0x000000), transparent ? 0 : 1)}
-        onPointerDown={() => {
-          document.body.style.overflow = "hidden"; // stop scroll
-        }}
-        onPointerUp={() => {
-          document.body.style.overflow = ""; // balikin scroll normal
-        }}
-        onPointerLeave={() => {
-          document.body.style.overflow = ""; // jaga-jaga kalau drag keluar area
-        }}
       >
         <ambientLight intensity={Math.PI} />
         <Physics gravity={gravity} timeStep={1 / 60}>
