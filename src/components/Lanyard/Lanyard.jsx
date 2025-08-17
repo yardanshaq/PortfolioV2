@@ -72,6 +72,29 @@ function Band({ maxSpeed = 50, minSpeed = 0 }) {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
+  useEffect(() => {
+  const canvas = document.querySelector("canvas");
+
+  const preventScroll = (e) => e.preventDefault();
+
+  canvas.addEventListener("touchstart", () => {
+    document.body.style.overflow = "hidden";
+    document.addEventListener("touchmove", preventScroll, { passive: false });
+  });
+
+  canvas.addEventListener("touchend", () => {
+    document.body.style.overflow = "";
+    document.removeEventListener("touchmove", preventScroll);
+  });
+
+  return () => {
+    canvas.removeEventListener("touchstart", () => {});
+    canvas.removeEventListener("touchend", () => {});
+    document.removeEventListener("touchmove", preventScroll);
+  };
+}, []);
+
+
   useFrame((state, delta) => {
     if (dragged) {
       vec.set(state.pointer.x, state.pointer.y, 0.5).unproject(state.camera);
