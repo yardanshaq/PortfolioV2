@@ -25,7 +25,7 @@ import Tools16 from "/assets/tools/ts.png";
 import Tools17 from "/assets/tools/php.png";
 import Tools18 from "/assets/tools/vite.png";
 import Tools19 from "/assets/tools/mysql.png";
-import Tools20 from "/assest/tools/python.png";
+import Tools20 from "/assets/tools/python.png";
 
 
 export const listTools = [
