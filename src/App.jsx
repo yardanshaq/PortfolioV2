@@ -113,7 +113,7 @@ function App() {
               showUserInfo={true}
               enableTilt={true}
               enableMobileTilt={false}
-              onContactClick={() => window.location.href = "mailto:gg@yardansh.site"}
+              onContactClick={() => window.location.href = "https://wa.link/geja6c"}
             />
           </div>
         </div>
