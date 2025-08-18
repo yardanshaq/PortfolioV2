@@ -79,7 +79,7 @@ function App() {
           <div className="animate__animated animate__fadeInUp animate__delay-3s">
             <div className="flex items-center gap-3 mb-6 bg bg-zinc-800 w-fit p-4 rounded-2xl">
               <img src="./assets/dann1.png" className="w-10 rounded-md" />
-              <q>Don't be a looser</q>
+              <q>Man up or take it head-on</q>
             </div>
             <h1 className="text-5xl font-bold mb-6">
               <ShinyText text="Hi I'm Yardan Shaquille Herlanda" disabled={false} speed={3} className='custom-class' />
