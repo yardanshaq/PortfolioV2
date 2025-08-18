@@ -113,7 +113,7 @@ function App() {
               showUserInfo={true}
               enableTilt={true}
               enableMobileTilt={false}
-              onContactClick={() => console.log('Contact clicked')}
+              onContactClick={() => window.location.href = "mailto:gg@yardansh.site"}
             />
           </div>
         </div>
