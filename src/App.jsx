@@ -256,7 +256,7 @@ function App() {
             {/* Contact Form di kanan */}
             <div className="flex-1">
               <form
-                action="https://formsubmit.co/gg@yardansh.site"
+                action="https://formsubmit.co/gg@yardansh.xyz"
                 method="POST"
                 className="bg-zinc-800 p-10 w-full rounded-md"
                 autoComplete="off"
