@@ -174,6 +174,7 @@ export const listTools = [
 import Proyek1 from "/assets/proyek/proyek1.jpg";
 import Proyek2 from "/assets/proyek/proyek2.jpg";
 import Proyek3 from "/assets/proyek/proyek3.jpg";
+import Proyek4 from "/assets/proyek/proyek4.jpg":
 
 export const listProyek = [
   {
@@ -208,5 +209,15 @@ export const listProyek = [
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
     url: "https://github.com/yardanshaq/Cecile-Hotspot",
     dad: "300",
-  }
+  },
+  {
+    id: 4,
+    image: Proyek4,
+    title: "Cecilefy URL Shortener",
+    subtitle: "A fast and simple web-based URL shortener designed for seamless link creation and sharing...",
+    fullDescription:"A modern and responsive web-based URL shortener built to simplify the way links are shared and managed. Cecilefy allows users to quickly generate short, clean, and customizable URLs with ease. The platform features a sleek and intuitive interface, offering seamless link creation, tracking, and management directly from the browser. Optimized for both desktop and mobile, it ensures fast performance and a smooth user experience. This project emphasizes the use of modern web technologies to deliver a reliable, scalable, and user-friendly solution for managing links, focusing on simplicity, efficiency, and accessibility.",
+    borderColor: "#3B82F6",
+    gradient: "linear-gradient(145deg, #3B82F6, #000)",
+    url: "https://github.com/yardanshaq/Cecilefy",
+    dad: "400",
 ];
