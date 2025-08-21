@@ -220,4 +220,5 @@ export const listProyek = [
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
     url: "https://github.com/yardanshaq/Cecilefy",
     dad: "400",
+  }
 ];
