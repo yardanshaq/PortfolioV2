@@ -158,7 +158,7 @@ function App() {
 
 
                 <ShinyText
-                  text="Working with heart, creating with mind."
+                  text="Powered by passion, refined by thought."
                   disabled={false}
                   speed={3}
                   className="text-sm md:text-base text-violet-400"
