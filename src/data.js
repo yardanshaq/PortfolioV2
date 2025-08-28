@@ -175,6 +175,7 @@ import Proyek1 from "/assets/proyek/proyek1.jpg";
 import Proyek2 from "/assets/proyek/proyek2.jpg";
 import Proyek3 from "/assets/proyek/proyek3.jpg";
 import Proyek4 from "/assets/proyek/proyek4.jpg";
+import Proyek5 from "www.imglo.app/lo/f497cddc4d5b7e83.png";
 
 export const listProyek = [
   {
@@ -220,5 +221,16 @@ export const listProyek = [
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
     url: "https://github.com/yardanshaq/Cecilefy",
     dad: "400",
+  },
+  {
+    id: 5,
+    image: Proyek5,
+    title: "Cloud Image Hosting",
+    subtitle: "A fast and secure cloud-based image hosting platform...",
+    fullDescription:"A responsive and reliable image hosting service designed to make uploading, storing, and sharing images effortless. The platform features a clean modern interface where users can quickly drag-and-drop or select images for instant upload. Each file is processed with optimized performance to ensure fast delivery and secure access, powered by a scalable cloud backend. The project emphasizes simplicity and user experience, offering direct image links, easy management, and support for both desktop and mobile devices. Built with efficiency, speed, and reliability in mind, this platform showcases the integration of modern web technologies to provide a lightweight yet powerful cloud hosting solution.",
+    borderColor: "#3B82F6",
+    gradient: "linear-gradient(145deg, #3B82F6, #000)",
+    url: "https://github.com/yardanshaq/imglo",
+    dad: "500",
   },
 ];
