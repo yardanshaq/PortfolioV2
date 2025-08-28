@@ -176,6 +176,7 @@ import Proyek2 from "/assets/proyek/proyek2.jpg";
 import Proyek3 from "/assets/proyek/proyek3.jpg";
 import Proyek4 from "/assets/proyek/proyek4.jpg";
 import Proyek5 from "/assets/proyek/proyek5.jpg";
+import Proyek6 from "/assets/proyek/proyek6.jpg";
 
 export const listProyek = [
   {
@@ -232,5 +233,16 @@ export const listProyek = [
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
     url: "https://github.com/yardanshaq/imglo",
     dad: "500",
+  },
+  {
+    id: 6,
+    image: Proyek6,
+    title: "TikTok Media Downloader",
+    subtitle: "A fast and user-friendly browser-based TikTok Downloader...",
+    fullDescription:"A lightweight yet powerful web application that enables users to download TikTok videos and extract audio directly from their browser. With a sleek and intuitive design, the tool provides instant access to watermark-free videos and high-quality MP3 audio, ensuring a smooth experience across both desktop and mobile devices. It emphasizes simplicity and speed, allowing users to paste a link and get their downloads in just a few clicks. This project demonstrates how modern web technologies can be combined to deliver a practical, user-focused solution for online media access, with attention to performance, accessibility, and ease of use.",
+    borderColor: "#3B82F6",
+    gradient: "linear-gradient(145deg, #3B82F6, #000)",
+    url: "https://wa.link/5c0nh9",
+    dad: "600",
   },
 ];
